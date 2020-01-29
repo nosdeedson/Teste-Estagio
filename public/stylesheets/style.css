@@ -1,0 +1,121 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:rgba(230, 207, 207, 0.596);
+}
+
+header{
+  height: auto;
+  widows: auto;
+  background-color: black;
+  color: white;
+}
+
+.primeiroItens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%;
+}
+
+.divLogo img{
+  left: 50px;
+  height: 150px;
+  border-radius: 55px;
+  position: relative;
+  top: 10px;
+}
+
+/* caixa de pesquisa*/
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  position: relative;
+  top: 15px;
+  /* width:300px; */
+  /* height:32px; */
+}
+
+#txtBusca{
+  background-color:transparent;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:30px;
+  width:191px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px; 
+  font-weight:bold; 
+  background:#5F9EA0; 
+}
+ 
+#divBusca img{
+  float:left;
+}
+
+.divUsuario{
+  right: 40px;
+  height: 30px;
+  position: relative;
+  top:0px;
+}
+
+.divUsuario img{
+  height: 60px;
+  background-color: yellowgreen;
+  border-radius: 25px;
+  position: relative;
+  top: -5px;
+  right: 70px;
+}
+
+.divUsuario h2{
+  font-size: large;
+  position: relative;
+  left: 5px;
+  top: -50px;
+}
+
+.slides{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#h2Promocao, #produtoPromocao{
+  font-size: xx-large;
+  position: relative;
+}
+#produtoPromocao{
+  position: relative;
+  left: 10px;
+  color: azure;
+  text-decoration: none;
+  
+}
+main{
+  height: 200px;
+  padding-bottom: 55px;
+}
+
+#primeirosProdutos, #segundoProdutos{
+  margin: 40px;
+  height: 100px;
+  background-color: darkgray;
+}
+footer{
+  height: auto;
+  background-color: black;
+  padding-top: 20px;
+}
+.rodape{
+  height: 200px;
+}
