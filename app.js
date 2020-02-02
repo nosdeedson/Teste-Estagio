@@ -24,17 +24,10 @@ app.use('/users', usersRouter);
 
 
 // conexao bd teste
-/*
-const mysql = require('mysql')
-const connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'jose',
-  password : 'surfando1234',
-  database : 'testeestagio'
-});*/
+
 const con = require('./models/lendoBD')
-console.log(con)
-/*con.connect(function(err) {
+
+con.connect(function(err) {
   if (err) {
     console.error('error connecting: ' + err.stack);
     return;
@@ -42,15 +35,15 @@ console.log(con)
  
   console.log('connected as id ' + con.threadId);
 });
-/*
-connection.query('SELECT * FROM produto', function(err, rows, fields){
+
+con.query('SELECT * FROM produto', function(err, rows, fields){
   if(!err){
     console.log("resultado: ", rows)
   }
   else{
     console.log( "naõ deu")
   }
-})*/
+})
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
