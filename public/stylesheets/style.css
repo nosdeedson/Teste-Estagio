@@ -17,6 +17,7 @@ header{
   align-items: center;
   justify-content: space-between;
   height: 25%;
+  background-color: black;
 }
 
 .divLogo img{

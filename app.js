@@ -23,6 +23,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 
+
+
 // conexao bd teste
 
 const con = require('./models/lendoBD')
