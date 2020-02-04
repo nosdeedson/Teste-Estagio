@@ -1,0 +1,101 @@
+body{
+    background-color: #d3d3d3;
+}
+#product{
+    border: solid 1px;
+    box-sizing: content-box;
+    margin: 20px 50px;
+    background-color: rgb(224, 223, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#frenteMini{
+    position: relative;
+    top: -155px;
+    left: -130px;
+}
+#costaMini{
+    position: relative;
+    top: -40px;
+    left: -215px;
+}
+#frenteMini, #costaMini{
+    max-width: 80px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+}
+
+/* estrelas avaliação */
+.checked {
+    color: orange;
+  }
+
+p{
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: justify;
+}
+h2, h3{
+    font-size: 21px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#infoPagamento, #infoLoja{
+    margin: 3px 50px;
+    border: solid .5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+    height: auto;
+}
+#pagamento{
+    background-color: #666;
+    max-height: 65%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#h2Pagamento{
+    text-align: center;
+}
+#cartao, #boleto{
+    position: relative;
+    max-width: 80%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+#cartao{
+    left: 120px;
+}
+
+#boleto{
+    top: 130px;
+    right: 50px;
+}
+
+#vendedor{
+    margin-top: 10px;
+    text-align: center;
+}
+#vendedor img{
+    background-position-x: center;
+}
+#botao2{
+    background-color: yellowgreen;
+    position: relative;
+    left: -100px;
+    top: 25px;
+}
+#nomeLoja h2{
+    text-align: center;
+}
+
+#localizacao{
+    padding-top: 20px;
+    position: relative;
+    width: 50px;
+    left: 500px;
+}

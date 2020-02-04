@@ -123,6 +123,7 @@ main{
 }
 
 
+
 #produto1{
   display: flex;
   align-items: center;
@@ -138,6 +139,7 @@ main{
 #produto1 img{
   width: 90%;
   height: 70%;
+  padding-left: 10px;
 }
 #produto1 h2{
   text-align: center;
@@ -147,7 +149,7 @@ main{
   top: 40%;
 }
 .setaLeft{
-  left: 6px;
+  left: 0;
 }
 #botao{
   background-color: yellow;

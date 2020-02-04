@@ -2,9 +2,14 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
+
     <link rel="stylesheet" href="/stylesheets/reset.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="/stylesheets/slides.css">
+    <link rel="stylesheet" href="/stylesheets/estiloProduto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
     <script type="text/javascript" src="/javascript/slide.js"></script>
     <script type="text/javascript" src="/javascript/especificacaoProduto.js"></script>
     <title><%= title %></title>
@@ -46,42 +51,38 @@
         <span class="dot" onclick="currentSlide(1)"></span> 
         <span class="dot" onclick="currentSlide(2)"></span> 
         <span class="dot" onclick="currentSlide(3)"></span> 
-        <script>
-          showSlides(0);
-        </script>
+  
       </div>
       <!-- primeiros produtos -->
       <div id="primeirosProdutos">
         <img class="setaRight" src="/images/setaDireita.png">
         <section id="produto1">
           <div>
-            <a href="/paginaProduto"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
-          <script>
-            paginaProduto()
-          </script>
+         <!-- aqui -->
         </section>
         <img class="setaLeft" src="/images/setaEsquerda.png">
       </div>
@@ -90,30 +91,31 @@
         <img class="setaRight" src="/images/setaDireita.png">
         <section id="produto1">
           <div>
-            <a href="paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a edlink>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
           <div>
-            <a href="views/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
+            <a edlink href="/layouts/paginaProduto.html"><img src="/images/exemploImagem.png" alt=""></a>
             <h2>Camiseta BaWSaw</h2>
             <h2>R$ 50,40</h2>
           </div>
+     
         </section>
         <img class="setaLeft" src="/images/setaEsquerda.png">
       </div>
@@ -123,7 +125,7 @@
     </main>
     <footer>
       <div id="adress">
-        <h2>Rua: zequinha Luiz</h2>
+        <h2>Rua: Coronel Renno, Pinheirinho</h2>
       </div>
       <div id="entregas">
         <h2>Entregamos em Itajubá e Piranguinho</h2>
@@ -137,5 +139,9 @@
         <a href="https://www.instagram.com/?hl=pt-br" target="blank"><img id="idInsta" src="/images/instagram.png"></a>
       </div>
     </footer>
+    <script>
+      showSlides(0);
+      paginaProduto()
+    </script>
   </body>
 </html>
