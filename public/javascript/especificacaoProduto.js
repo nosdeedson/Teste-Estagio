@@ -17,11 +17,21 @@ function mudaImagem(id){
     if(id === 1){        
         imagem.src='/images/camisaFrente.png'
     }
-    else{imagem.src='/images/camisaCosta.png'}
+    else{
+        imagem.src='/images/camisaCosta.png'
+    }
          
 }
 
-function avaliacaoProduto(){
-    console.log("clicou")
-   
+function avaliacaoProduto(id){
+    /* */
+    const imagem = document.querySelectorAll('[ed-star]')
+    imagem.forEach( elemento =>{
+        for( let i = 0; i < id; i++){
+            imagem[i].src='/images/estrelaAvaliada.png'
+        }
+    })
+    const texto = document.getElementById('clicou')
+    texto.style.fontSize='20px'
+    texto.innerHTML= id
 }
