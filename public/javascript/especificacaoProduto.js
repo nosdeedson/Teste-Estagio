@@ -15,8 +15,13 @@ function paginaProduto(){
 function mudaImagem(id){
     const imagem = document.querySelector('[ed-imagem]')
     if(id === 1){        
-        imagem.src='/images/camisaCosta.png'
+        imagem.src='/images/camisaFrente.png'
     }
-    else{imagem.src='/images/camisaFrente.png'}
+    else{imagem.src='/images/camisaCosta.png'}
          
+}
+
+function avaliacaoProduto(){
+    console.log("clicou")
+   
 }
