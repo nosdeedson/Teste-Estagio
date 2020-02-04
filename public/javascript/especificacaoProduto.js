@@ -12,7 +12,11 @@ function paginaProduto(){
     })
 }
 
-function configurarVideo(){
-    const video = document.getElementById("meuVideo")
-    video.oncontextmenu = () => false
+function mudaImagem(id){
+    const imagem = document.querySelector('[ed-imagem]')
+    if(id === 1){        
+        imagem.src='/images/camisaCosta.png'
+    }
+    else{imagem.src='/images/camisaFrente.png'}
+         
 }

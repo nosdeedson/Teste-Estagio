@@ -1,10 +1,12 @@
-<script type="text/javascript" src="/javascript/especidicacaoProduuto.js"></script>
+
 <div id="product">
     <aside>
-      <img id="frenteMini" src="/images/camisaFrente.png" alt="">
-      <img id="costaMini" src="/images/camisaCosta.png" alt="">
+      <img id="frenteMini" src="/images/camisaFrente.png" onclick="mudaImagem(1)" alt="">
+      <img id="costaMini" src="/images/camisaCosta.png" onclick="mudaImagem(2)"  alt="">
     </aside>
-    <div><img src="/images/camisaFrente.png" alt=""></div>
+    <div>
+      <img ed-imagem id="trocandoImagem" src="/images/camisaFrente.png" alt="">
+    </div>
     <div>
       <p>Camisa executiva Kelly</p>
       <p>Código: Pl456</p>
@@ -79,7 +81,6 @@
         <source src="/public/video/movie.ogg" type="video/ogg">
         Your browser does not support the video tag.
       </video>
-      
   </div>
 </div>
 
