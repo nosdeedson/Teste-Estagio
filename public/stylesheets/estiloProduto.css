@@ -51,6 +51,11 @@ h2, h3{
     justify-content: center;
     height: auto;
 }
+#infoLoja{
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    height: auto;
+}
 #pagamento{
     background-color: #666;
     max-height: 65%;
@@ -78,19 +83,29 @@ h2, h3{
 
 #vendedor{
     margin-top: 10px;
+}
+
+#h2Vendedor{
+    padding-top: 20px;
     text-align: center;
 }
-#vendedor img{
-    background-position-x: center;
+
+#fotoPerfil{
+    
+    position: relative;
+    left: 120px;
 }
 #botao2{
     background-color: yellowgreen;
     position: relative;
-    left: -100px;
+    left: 20px;
     top: 25px;
 }
+
+
 #nomeLoja h2{
     text-align: center;
+    padding-top: 20px;
 }
 
 #localizacao{
@@ -98,4 +113,12 @@ h2, h3{
     position: relative;
     width: 50px;
     left: 500px;
+}
+
+#meuVideo{
+    position: relative;
+    left: 150px;
+    width: 600px;
+    height: 350px;
+    padding-top: 20px;
 }
