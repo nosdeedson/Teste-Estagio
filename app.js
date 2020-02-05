@@ -22,12 +22,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-
-
-
 // conexao bd teste
 
-const con = require('./models/lendoBD')
+const con = require('./models/connector')
 
 con.connect(function(err) {
   if (err) {

@@ -24,14 +24,16 @@ function mudaImagem(id){
 }
 
 function avaliacaoProduto(id){
-    /* */
-    const imagem = document.querySelectorAll('[ed-star]')
-    imagem.forEach( elemento =>{
-        for( let i = 0; i < id; i++){
-            imagem[i].src='/images/estrelaAvaliada.png'
-        }
-    })
-    const texto = document.getElementById('clicou')
-    texto.style.fontSize='20px'
-    texto.innerHTML= id
+
+    const imagem = document.getElementsByClassName('star')
+
+    const estrela = Array.from(imagem)
+
+    for( let i = 0; i < 5; i++){
+        imagem[i].src="/images/estrelaAntesAvaliacao.png"
+    }
+
+    for( let j = 0; j < id; j++){
+        imagem[j].src="/images/estrelaAvaliada.png"
+    }
 }
