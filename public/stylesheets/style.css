@@ -64,28 +64,43 @@ header{
 }
 
 .divUsuario{
+  display: inline-flex;
   right: 40px;
   height: 30px;
   position: relative;
   top:0px;
 }
 
-.divUsuario img{
+#user{
   height: 60px;
   background-color: yellowgreen;
   border-radius: 25px;
   position: relative;
   top: -5px;
-  right: 70px;
+  right: 130px;
 }
 
 .divUsuario h2{
   font-size: large;
   position: relative;
-  left: 5px;
-  top: -50px;
+  right: -50px;
+  top: 8px;
 }
-
+#carrinho{
+  max-width: 55px;
+  max-height: 55px;
+  position: relative;
+  right:0px;
+  top: 8px;
+}
+#qtd{
+  position: relative;
+  right: 25px;
+}
+h4{
+  color: yellow;
+  font-size: medium;
+}
 main{
   height: auto;
   padding-bottom: 55px;
