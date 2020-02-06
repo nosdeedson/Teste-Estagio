@@ -37,3 +37,10 @@ function avaliacaoProduto(id){
         imagem[j].src="/images/estrelaAvaliada.png"
     }
 }
+ let qtd = new Number(0)
+function inserindoCarrinho(){
+    qtd++
+    const carrinho = document.getElementById('qtd')
+    carrinho.innerHTML = qtd
+    alert("click novamente para adicionar outro produto")
+}
