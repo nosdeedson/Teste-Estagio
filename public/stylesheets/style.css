@@ -136,9 +136,6 @@ main{
   align-items: center;
   justify-content: unset;
 }
-
-
-
 #produto1{
   display: flex;
   align-items: center;
@@ -184,13 +181,21 @@ footer{
 .socialMedia{
   height: auto;
   display: inline-flexbox;
-  align-items: center;
-  justify-content: end;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
+  grid-template-columns: 80px 80px;
+  
+}
+.socialMedia h2{
+  position: relative;
+  top: 0;
+  padding-bottom: 5px;
 }
 #setaCima{
-  text-decoration: none;
   position: relative;
-  left: 250px;
+  left: 350px;
+  top: -50px;
+  
+}
+#idTwitter, #idFace, #idLinkedin, #idInsta{
+  position: relative;
+  right: 55px;
 }
