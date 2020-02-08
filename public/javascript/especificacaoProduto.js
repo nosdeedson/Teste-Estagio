@@ -1,6 +1,18 @@
 function paginaProduto(){
+   const a = document.querySelectorAll('#testelink')
+   const conteudo = document.getElementById('produtos')
+   a.forEach( link =>{
+       link.onclick = (evento)=>{
+        evento.preventDefault()
+        
+        fetch(link.href)
+            .then( resposta => resposta.text())
+            .then(html => conteudo.innerHTML = html)
+    }
+   })
 
-    document.querySelectorAll('[edlink]').forEach( link =>{
+/*
+    document.querySelectorAll('edlink').forEach( link =>{
         const conteudo = document.getElementById('produtos')
         link.onclick = (evento)=>{
             evento.preventDefault()
@@ -9,7 +21,7 @@ function paginaProduto(){
                 .then( resposta => resposta.text())
                 .then(html => conteudo.innerHTML = html)
         }
-    })
+    })*/
 }
 
 function mudaImagem(id){
