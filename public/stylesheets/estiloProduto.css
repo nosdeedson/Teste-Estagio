@@ -26,6 +26,15 @@ body{
     width: auto;
     height: auto;
 }
+#escolhaTamanho{
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#escolhaTamanho h5{
+    font-size: 18px;
+}
 #botao3{
     background-color: #ff0000;
     font-size: 16px;
